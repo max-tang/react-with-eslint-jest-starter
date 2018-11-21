@@ -1,0 +1,19 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "max-len": [1, 70, 2, { "ignoreComments": true}]
+  },
+  "extends": ["airbnb"],
+  "settings": {
+    "react": {
+        "version": "999.999.999"
+    }
+  }
+}
